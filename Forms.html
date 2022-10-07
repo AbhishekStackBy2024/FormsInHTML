@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>FormsInHTML</title>
+</head>
+<body>
+
+ <!--Label & Input-->
+ <h5>Here Is Label and Input linked to it :
+ </h5>
+ <form action="">
+  <label for="name">Name :</label>
+  <input type="text" id="name" name="name">
+  <br>
+  <br>
+
+  <!--Radio Boxes Buttons-->
+  <h5>Here Is Radio Box As Input :</h5>
+  <label for="Sex">Sex :</label>
+  <input type="radio" value="Male" id="Male" name="Sex">
+  <label for="Male">Male</label>
+  <input type="radio" value="Female" id="Female" name="Sex">
+  <label for="Female">Female</label>
+  <input type="radio" value="Others" id="Others" name="Sex">
+  <label for="Others">Others</label>
+  <br>
+  <br>
+
+  <!--DropDown Menu-->
+  <h5>Here Is DropDown Menu As Input :</h5>
+  <label for="Study">Highest Qualification :</label>
+  <select name="Highest Qualification" id="Study">
+   <option value="">Select</option>
+   <option value="Post Graduate">Post Graduate</option>
+   <option value="Graduate">Graduate</option>
+   <option value="Intermediate">Intermediate</option>
+   <option value="Matric">Matric</option>
+  </select>
+  <br>
+  <br>
+
+  <!--Email Input-->
+  <h5>Here Is Email As Input :</h5>
+  <label for="email">Email Id :</label>
+  <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
+  <br>
+  <br>
+
+  <!--Date Input-->
+  <h5>Here Is Date As Input :</h5>
+  <label for="dob">DOB :</label>
+  <input type="date" id="dob" name="DateOfBirth">
+  <br>
+  <br>
+
+  <!--Quantity/Number As Input-->
+  <h5>Here Is Number/Quantity As Input :</h5>
+  <label for="experience">Experience :</label>
+  <input type="number" id="experience" name="WorkingExperience" min="0" max="20" value="1">
+  <br>
+  <br>
+
+  <!--Phone Number As Input-->
+  <h5>Here Is Phone Number As Input :</h5>
+  <label for="phone">Telephone :</label>
+  <input type="tel" id="phone" name="PhoneNo.">
+  <br>
+  <br>
+
+  <!--Input As A Password-->
+  <h5>Here Is Password As Input :</h5>
+  <label for="password">Password :</label>
+  <input type="password" id="password" name="password" maxlength="10">
+  <br>
+  <br>
+
+  <!--Range As Input-->
+  <h5>Here Is Range As Input :</h5>
+  <label for="rating">Rate Us :</label>
+  &nbsp;0<input type="range" id="rating" step="20" value="20">5
+  <br>
+  <br>
+
+  <!--CheckBox As Input-->
+  <h5>Here Is CheckBox As Input :</h5>
+  <label for="disability">Are You Disabled ?</label>
+  <input type="checkbox" id="yes" value="yes" name="disability">
+  <label for="yes">Yes</label>
+  <input type="checkbox" id="no" value="no" name="disability" checked>
+  <label for="no">No</label>
+  <br>
+  <br>
+
+  <!--Uploading File As An Input-->
+  <h5>Here Is Uploading File As Input :</h5>
+  <label for="myfile">Upload Your Resume :</label>
+  <input type="file" id="myfile" name="myResume">
+  <br>
+  <br>
+  
+  <!--Reset Button In Form Element-->
+  <h5>Here Are Submit and Reset Button :</h5>
+  <input type="reset">
+  <!--Submit Button -->
+  <input type="submit">
+ </form>
+</body>
+</html>
